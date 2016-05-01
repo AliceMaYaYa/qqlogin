@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="login-div">
+        <!--<form action="http://baidu.com" method="post">-->
+        <div class="login-top">
+            <div class="login-oper">
+                <span class="oper login-opt"></span>
+                <span class="oper login-min"></span>
+                <span class="oper login-close"></span>
+            </div>
+        </div>
+        <div class="login-bottom">
+            <div class="login-content-left">
+                <div class="add-user"></div>
+                <div class="avatar">
+                    <img class="avatar-img" width="100px" height="100px" src="image/user_photo.png">
+                </div>
+            </div>
+            <div class="login-content-right">
+                <div class="item">
+                    <input class="item-input username" type="text" name="username" placeholder="请输入用户名">
+                    &nbsp;<span class="label">注册账号</span>
+                </div>
+                <div class="item">
+                    <input class="item-input password" type="password" name="password" placeholder="请输入密码">
+                    &nbsp;<span class="label">找回密码</span>
+                </div>
+                <div class="item">
+                    <input type="checkbox" name="remberPasswd">记住密码
+                    <input class="auto-login" type="checkbox" name="autoLogin">自动登录
+                </div>
+                <div >
+                    <input class="login-btn" type="submit" value="登 &nbsp; 录">
+                    <div class="qrcode"></div>
+                </div>
+            </div>
+        </div>
+        <!--</form>-->
+    </div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
